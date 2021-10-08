@@ -1,75 +1,20 @@
+@import url('https://rsms.me/inter/inter-ui.css')
+
+*
+  box-sizing: border-box
+
 body
-  margin: 0
   background-color: yellowgreen
-  padding: 0
   display: flex
+  font:
+    family: 'Inter UI', sans-serif
+    style: normal
+    size: medium
   flex-wrap: wrap
+  margin: 0
+  overflow-y: hidden
+  padding: 0
   height: 100vh
   width: 100vw
 
-  header
-    background-color: green
-    height: calc(25% - 2*0.5rem)
-    margin: 0.5rem
-    width: calc(100% - 2*0.5rem)
-  section
-    background-color: bisque
-    height: 60%
-    margin: 0 0.5rem
-    width: calc(80% - 2*0.5rem)
-  aside
-    background-color: blue
-    height: 60%
-    width: calc(20% - 0.5rem)
-  footer
-    background-color: darkslateblue
-    height: calc(15% - 2*0.5rem)
-    margin: 0.5rem
-    width: calc(100% - 2*0.5rem)
-
-  #primary_nav_wrap ul
-    list-style: none
-    position: relative
-    float: left
-
-  #primary_nav_wrap ul a
-    display: block
-    color: #333
-    text-decoration: none
-    font-weight: 700
-    font-size: 12px
-    line-height: 32px
-    padding: 0 15px
-
-  #primary_nav_wrap ul li
-    position: relative
-    float: left
-    margin: 0
-    padding: 0
-  #primary_nav_wrap ul li.current-menu-item
-    background: #ddd
-
-  #primary_nav_wrap ul li:hover
-    background: #f6f6f6
-
-  #primary_nav_wrap ul ul
-    display: none
-    position: absolute
-    top: 100%
-    left: 0
-    background: #fff
-    padding: 0
-  #primary_nav_wrap ul ul li
-    float: none
-    width: 200px
-  #primary_nav_wrap ul ul a
-    line-height: 120%
-    padding: 10px 15px
-  #primary_nav_wrap ul ul ul
-    top: 0
-    left: 100%
-  #primary_nav_wrap ul li:hover > ul
-    display: block
-
-
-
+  @import 'content'
